@@ -19,16 +19,15 @@ export function createPostElement(user, text, imageSource) {
     }
 
     post.innerHTML = `
-        <div class="post-header">
-            <img src="./assets/image/profile.jpg" alt="Profile picture" class="profile-pic">
-            <div>
-                <p class="post-name">${user.name}</p>
-                <p class="post-date">${getDateText()}</p>
-            </div>
+    <div class="post-header">
+         <img src="./assets/media/jaspreet-image.jpeg" alt="Profile picture" class="profile-pic">
+        <div>
+            <p class="post-name">${user.name}</p>
+            <p class="post-date">${getDateText()}</p>
         </div>
-        ${textHtml}
-        ${imageHtml}
-    `;
-
+    </div>
+    ${textHtml}
+    ${imageHtml}
+`;
     return post;
 }
