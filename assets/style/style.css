@@ -1,9 +1,6 @@
-* {
-    box-sizing: border-box;
-}
+@charset "utf-8";
 
 body {
-    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f4f0f7;
     color: #222;
@@ -21,23 +18,40 @@ body {
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
 }
 
-.top-bar h1 {
-    margin: 0 0 10px 0;
+.header-left h1 {
+    margin: 0;
     font-size: 28px;
 }
 
-.top-bar p {
-    margin: 0 0 15px 0;
+.header-left p {
+    margin: 5px 0 0 0;
 }
 
-.top-bar button {
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+}
+
+.header-right button {
     background-color: white;
     color: #6a4c93;
     border: none;
     border-radius: 5px;
-    padding: 10px 16px;
+    padding: 8px 14px;
     cursor: pointer;
 }
 
@@ -86,7 +100,6 @@ input[type="file"] {
 
 #postBtn:disabled {
     background-color: #b7a8c9;
-    cursor: not-allowed;
 }
 
 .posts-area h2 {
