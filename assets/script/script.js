@@ -1,5 +1,5 @@
 import { Subscriber } from './subscriber.js';
-import { createPostElement } from './helpers.js';
+import { createPostElement } from './helper.js';
 
 const postForm = document.getElementById('postForm');
 const postText = document.getElementById('postText');
