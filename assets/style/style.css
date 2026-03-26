@@ -179,16 +179,11 @@ input[type="file"] {
     top: 10px;
     right: 14px;
     width: auto;
-    margin-bottom: 0;
-    background: none;
     border: none;
     font-size: 24px;
     cursor: pointer;
 }
 
-.modal-box h2 {
-    margin-top: 0;
-}
 
 .modal-box p {
     margin: 8px 0;
