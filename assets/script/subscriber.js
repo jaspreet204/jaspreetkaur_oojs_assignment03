@@ -26,7 +26,7 @@ export class Subscriber extends User {
 
     getInfo() {
         return `
-            <img src="./assets/image/profile.jpg" alt="Profile picture" class="modal-profile">
+            <img src="./assets/media/jaspreet-image.jpeg" alt="Profile picture" class="modal-profile">
             ${super.getInfo()}
             <p><strong>Pages:</strong> ${this.#pages.join(', ')}</p>
             <p><strong>Groups:</strong> ${this.#groups.join(', ')}</p>
