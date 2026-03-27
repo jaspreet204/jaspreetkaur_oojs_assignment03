@@ -197,3 +197,7 @@ input[type="file"] {
     margin-bottom: 12px;
     object-fit: cover;
 }
+
+.header-right button:hover {
+    background-color: #f0f0f0;
+}
