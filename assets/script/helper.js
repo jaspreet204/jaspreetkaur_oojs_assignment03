@@ -1,3 +1,5 @@
+'use strict';
+
 export function getDateText() {
     const today = new Date();
     return today.toLocaleString();

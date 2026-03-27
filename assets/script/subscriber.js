@@ -1,3 +1,4 @@
+'use strict';
 import { User } from './user.js';
 
 export class Subscriber extends User {
